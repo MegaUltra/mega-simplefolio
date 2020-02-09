@@ -22,11 +22,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Simplefolio`,
-        short_name: `Simplefolio`,
+        name: `Mega Ultra Studios`,
+        short_name: `Mega Ultra`,
         start_url: `/`,
-        background_color: `#fff`,
-        theme_color: `#02aab0`,
+        background_color: `#CFC714`,
+        theme_color: `#0D0D0D`,
         display: `standalone`,
         icon: 'src/images/favicon.png',
       },
