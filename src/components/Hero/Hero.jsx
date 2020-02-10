@@ -26,17 +26,20 @@ const Header = () => {
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
             {title || 'Hi, my name is'}{' '}
-            <span className="text-color-main">{name || 'Your Name'}</span>
+            <span className="text-color-main">{name || 'Mega Ultra Studios'}</span>
             <br />
-            {subtitle || "I'm the Unknown Developer."}
+            {subtitle || "I do Multimedia Production."}
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
-          <p className="hero-cta">
+          {/* <p className="hero-cta">
             <a className="cta-btn cta-btn--hero" href="#about">
               {cta || 'Know more'}
             </a>
-          </p>
+          </p> */}
+          <div class="embed-responsive embed-responsive-16by9">
+          <iframe class="embed-responsive-item" src="https://megaultra.space/media/Demo_Reel.mp4"></iframe>
+          </div>
         </Fade>
       </Container>
     </section>
